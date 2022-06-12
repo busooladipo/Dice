@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice</title>
+</head>
+<body>
+    <div class="container">
+            <div class="pad">
+                <h1>Dice Game</h1>
+                <div>
+                <p id="comment">Player1! CLICK ON "ROLL DICE🎲" TO START GAME!</p>
+                </div>
+
+                <!-- Total Score -->
+                <div class="display">
+                    <div class="dis1">
+                        <h3>Player1 Total Score:</h3>
+                        <p class="scoreboard shadow" id="p1sB">0</p>
+                    </div>
+                    <div class="dis2">
+                        <h3>Player2 Total Score:</h3>
+                        <p class="scoreboard" id="p2sB">0</p>
+                    </div>
+                </div>
+                <div class="images">
+                    <img id="img1" class="hide" src="./images/dice1.jfif" alt="one">
+                    <img id="img2" class="hide" src="./images/dice 2.jfif" alt="two">
+                    <img id="img3" class="hide" src="./images/dice 3.jfif" alt="three">
+                    <img id="img4" class="hide" src="./images/dice 4.jfif" alt="four">
+                    <img id="img5" class="hide" src="./images/dice5.jfif" alt="five">
+                    <img id="img6" class="hide" src="./images/dice6.jfif" alt="six">
+                </div>
+
+                <!-- Score -->
+                <div class="display">
+                    <div class="dis3">
+                        <h4>PLAYER 1</h4>
+                        <p class="scoreboard shadow" id="p1Score">0</p>
+                    </div>
+                    <div class="dis4">
+                        <h4>PLAYER 2</h4>
+                        <p class="scoreboard" id="p2Score">0</p>
+                    </div>
+                </div>
+
+                <!-- Buttons -->
+                <div class="btns">
+                    <button id="roll" class="hide show">ROLL DICE🎲</button>
+                    <button id="reset" class="hide">RESET</button>
+                </div>
+            </div>
+    </div>
+    
+
+    <script src="index.js"></script>
+</body>
+</html>
